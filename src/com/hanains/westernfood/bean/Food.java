@@ -6,6 +6,7 @@ public abstract class Food {
 	protected Long price;
 	protected Long weight;
 
+
 	public String getName() {
 		return name;
 	}

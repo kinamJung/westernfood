@@ -8,7 +8,7 @@ import com.hanains.westernfood.bean.Food;
 
 public class FoodList {
 
-	private HashMap<String, ArrayList<Food> > foodMap;
+	private HashMap<String, HashMap<String, ArrayList<Food>>  > foodMap;
 
 	public FoodList() {
 		foodMap = new HashMap<>();
@@ -19,12 +19,5 @@ public class FoodList {
 		if( foodMap.get(kind) == null ){
 			
 		}
-		
-		
-		
 	}
-	
-	
-	
-	
 }
