@@ -1,13 +1,14 @@
-package com.hanains.factory;
+package com.java.factory;
 
-import com.hanains.westernfood.bean.Food;
-import com.hanains.westernfood.bean.Hamburger;
-import com.hanains.westernfood.bean.Pizza;
+import com.java.westernfood.bean.Food;
+import com.java.westernfood.bean.Hamburger;
+import com.java.westernfood.bean.Pizza;
 
 public class WesternFoodFactory extends FoodFactory {
-
+	
+	
 	@Override
-	Food createFood(String name) {
+	public Food createFood(String name) {
 	
 		Food food = null;
 		if( name.equals("hamburger") ){
