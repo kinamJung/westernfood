@@ -59,7 +59,7 @@ public class Controller {
 		auth = userFactory.getUser(positionSelect);
 		System.out.println();
 		System.out.println();
-		System.out.println();
+		System.out.println("");
 		
 		while(true){
 			
