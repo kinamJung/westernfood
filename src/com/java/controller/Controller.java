@@ -57,7 +57,7 @@ public class Controller {
 				
 		int positionSelect = positionMemu();
 		auth = userFactory.getUser(positionSelect);
-		
+		System.out.println();
 		
 		while(true){
 			
